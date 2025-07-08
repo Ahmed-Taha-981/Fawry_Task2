@@ -59,3 +59,7 @@ Customization
 -------------
 To add new book types, simply extend the `Book` class and update the `Inventory` logic if needed.
 
+output
+-------------
+
+![alt text](image.png)

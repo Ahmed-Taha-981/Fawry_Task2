@@ -19,7 +19,7 @@ public class QuantumBookstoreFullTest {
 
         // use case 3: Buy a paper book
         try {
-            double paid = inventory.buyBook("ISBN001", 2, "buyer@email.com", "123 Main St");
+            double paid = inventory.buyBook("ISBN001", 2, "Taha@email.com", "Nasr City, Cairo");
             System.out.println("Quantum book store: Paid amount: " + paid);
         } catch (Exception e) {
             System.out.println(e.getMessage());
@@ -27,7 +27,7 @@ public class QuantumBookstoreFullTest {
 
         // use case 4: Buy an ebook
         try {
-            double paid = inventory.buyBook("ISBN002", 1, "buyer@email.com", "");
+            double paid = inventory.buyBook("ISBN002", 1, "Taha@email.com", "");
             System.out.println("Quantum book store: Paid amount: " + paid);
         } catch (Exception e) {
             System.out.println(e.getMessage());
